@@ -10,7 +10,7 @@ module FlickRaw
   USER_AGENT = "FlickRaw/#{VERSION}"
   
   self.secure = true
-  self.check_certificate = true
+  self.check_certificate = false
 end
 
 # Use this to access the flickr API easily. You can type directly the flickr requests as they are described on the flickr website.
